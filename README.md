@@ -1,30 +1,28 @@
 # tech-blog-kd
+
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 This repo is for module fourteen's challenge assignment.
 
 ## Description
 
-The challenge is an Job-seeking coding assessment or take-home assignment (no starter code is provided, we will build this web application by scratch). The goal is to build an interface that will allow non-developers to easily view and interact with information stored in databases. The interface created here is a 'content management system' (CMS). It will be a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer and MySQL.
+The challenge is an Job-seeking coding assessment or take-home assignment (no starter code is provided, we will build this web application by scratch). The goal is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers' posts as well. It will be built from scratch and deployed to Heroku. It will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM and the express-session npm package for authentication.
 
-The motivation behind this project is to create a command-line application from scratch. It will help me utilize the skills in Node.js, Inquirer and MySQL.
+The motivation behind this project is to utilize the skills we learned in MVC (Model-View-Controller).
 
 ## Accessing the Repo or Webpage:
 
-- GitHub Repo URL: https://github.com/kevindimayuga/employee-tracker-kd
+- GitHub Repo URL: https://github.com/kevindimayuga/tech-blog-kd
 - GitHub Pages WebPage Deployment URL: n/a
+- Heroku Webpage Deployed URL:
 
-## Webpage Screenshot
+## Screenshots, GIFs and Videos
 
-#### CLI application test example:
-![employee tracker command line example screenshot](./assets/images/Employer%20Tracker%20CLI%20Screenshot.PNG)
+#### Video WalkThroughs
 
-### GIF of App Functionality
+- The following link will take you to a video walkthrough
 
-![]()
-
-### Full Video Walkthrough
-
-- Since this will be a command-line application and not a webpage application, you can use the following [LINK]() to access a video walkthrough on how to use the employee tracker command-line application.
-    - [Employee Tracker Video Walkthrough]()
+    - [Tech-Blog Video Walkthrough Link]()
 
 ## Table of Contents
 
@@ -43,37 +41,24 @@ The motivation behind this project is to create a command-line application from 
 The following steps were taken to complete the project:
 - Review the purpose of the project, the user story and acceptance criteria
 - Review the basics to starting a command-line application
-- Review JavaScript, Node.js, Express and MySQL
+- Review JavaScript, Node.js, Express.js, MySQL, Sequelize
 - Create Professional README file
 - Write code
 - Add website image/gif to README file
-- Add link to video walkthrough on how to use Employee Tracker command-line application
-- Submit URL to GitHub Repo and link to video walkthrough
-
-JavaScript Updates
-```
-// comments were made as needed in the JavaScript file
-```
-
-Node.js Updates
-```
-// comments were made as needed in JavaScript file
-```
-
-MySQL Updates
-```
-// comments were made as needed in JavaScript file
-```
+- Submit URL to GitHub Repo and link to Heroku deployment
 
 ## Usage
 
 - Clone repo onto local device
 - Open repo in local CLI
-- Make sure node packages are installed by running 'npm i'
-- Run 'npm start' in CLI
-- Select an option from the list
-- Depending on selection, follow prompts or view data from employees database
-- Use and update database for employees as needed to track any necessary information
+- Make sure to update the `.env.EXAMPLE` file to match the database, username and password to be used in this repo and to update the filename to `.env` so that it can run based on the `connections.js` file
+- Make sure node packages are installed by running `npm i`
+- Login to MySQL by typing `mysql -u root -p` and sign in with your password
+- Type `exit` to exit mysql
+- Run `npm run seed` in CLI
+- Run `npm start` in CLI
+- Open up localhost on the Insomnia application (http://localhost:3001)
+- Use the Insomnia app to do GET, POST, PUT and DELETE requests for categories, products and tags for the e-commerce application
 
 ## Credits
 
@@ -90,7 +75,7 @@ I used the following resources to help guide me to complete the portfolio projec
 
 ## License
 
-N/A
+- [MIT](https://opensource.org/license/mit/)
 
 ## Badges
 
