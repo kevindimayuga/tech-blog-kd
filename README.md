@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-This repo is for module fourteen's challenge assignment.
+M14 - This repo is CMS-style blog application where developers can publish their blog posts and comment on other developers' posts as well.
 
 ## Description
 
