@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-M14 - This repo is CMS-style blog application where developers can publish their blog posts and comment on other developers' posts as well.
+M14 - This repo is a CMS-style blog application where developers can publish their blog posts and comment on other developers' posts as well.
 
 ## Description
 
